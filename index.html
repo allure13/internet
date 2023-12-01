@@ -21,7 +21,7 @@
       <div class="header-container">
         <nav class="header-navi">
           <a href="./index.html" class="header-link-logo link">World.Net</a>
-          <ul class="header-list">
+          <ul class="list header-list">
             <li class="header-item">
               <a href="./index.html" class="link">Home</a>
             </li>
@@ -61,7 +61,7 @@
       <!------------------------------------------- CHOOSE SECTION -------------------------------------------->
       <section class="choose-section section" id="choose">
         <h2 class="choose-title">Why choose our company</h2>
-        <ul class="choose-list">
+        <ul class="list choose-list">
           <li class="choose-item">
             <svg class="choose-icon" width="72" height="70">
               <use href="./img/icons.svg#icon-speed-svg"></use>
@@ -114,9 +114,146 @@
         <h3>4,91</h3>
         <p>Average quality score for home Internet and TV</p>
       </section>
-      <section class="section"></section>
-      <section class="section"></section>
+      <!------------------------------------------- CHOOSE SECTION -------------------------------------------->
+
+      <!------------------------------------------- FEEDBACK SECTION -------------------------------------------->
+
+      <section class="section feedback-section">
+        <h2>Feedbacks from our clients</h2>
+        <h3>«We have been using World.net for seven years»</h3>
+        <p>
+          «We connected it for a rented apartment, and now we use it in ours.
+          For 7 years, only one call was made to support - to change the
+          installation address. It can be called the quality standard for modern
+          Internet providers. The level of service is excellent. No connection
+          breaks, no modem connection, the Internet, in fact, over a dedicated
+          line. Bonus program for regular subscribers up to 20% discount on the
+          tariff plan»
+        </p>
+        <a href="./index.html" class="link">Read full review</a>
+        <img src="./img/douglass.jpg" alt="avatar" />
+        <p>Douglas Hancock</p>
+        <p>Chicago</p>
+      </section>
+      <!------------------------------------------- FEEDBACK SECTION -------------------------------------------->
+
+      <!------------------------------------------- TARIFF SECTION -------------------------------------------->
+      <section class="section tariff-section">
+        <h2>Tariff offers</h2>
+        <div>
+          <img src="./img/tariffs/tariff-standart.png" alt="" />
+          <div>
+            <h4>Standart</h4>
+            <span>$20/month</span>
+          </div>
+          <p>The connection is always stable</p>
+          <p>Speed of 100 Mbit / s</p>
+          <a href="./index.html">Make a request</a>
+        </div>
+        <div>
+          <img src="./img/tariffs/tariff-smart.png" alt="" />
+          <div>
+            <h4>Smart</h4>
+            <span>$30/month</span>
+          </div>
+          <p>Service without weekends</p>
+          <p>Speed of 300 Mbit / s</p>
+          <a href="./index.html">Make a request</a>
+        </div>
+        <div>
+          <img src="./img/tariffs/tariff-prime.png" alt="" />
+          <div>
+            <h4>Prime</h4>
+            <span>$40/month</span>
+          </div>
+          <p>New modern fiber optic network</p>
+          <p>Speed of 1000 Mbit / s</p>
+          <a href="./index.html" class="link">Make a request</a>
+        </div>
+      </section>
+      <!------------------------------------------- TARIFF SECTION -------------------------------------------->
+
+      <!------------------------------------------- REQUEST SECTION -------------------------------------------->
+      <section class="section request-section">
+        <h2>Leave a request and our manager will contact you shortly</h2>
+        <p>
+          You will have the opportunity to discuss details and ask clarifying
+          questions
+        </p>
+        <form>
+          <div>
+            <label class="request-form-label" for="user-tel"></label>
+            <input
+              class="request-form-input"
+              type="tel"
+              placeholder="Phone number"
+              name="user-tel"
+              id="user-tel"
+              required
+              pattern="[0-9] {3}-[0-9] {3}-[0-9] {3}-[0-9] {3}"
+            />
+            <label class="request-form-label" for="user-name"></label>
+            <input
+              class="request-form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Name"
+              required
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄ]+"
+            />
+          </div>
+          <button type="submit" class="request-btn">Order calculation</button>
+          <input
+            class="privacy-input"
+            id="user-privacy"
+            type="checkbox"
+            value="true"
+            name="user-privacy"
+          />
+          <span class="privacy-text-span">
+            By clicking on the button, you agree to the
+            <a class="privacy-link link" href=""
+              >terms of processing personal data</a
+            >
+          </span>
+        </form>
+      </section>
+      <!------------------------------------------- REQUEST SECTION -------------------------------------------->
     </main>
-    <footer></footer>
+
+    <!------------------------------------------- FOOTER -------------------------------------------->
+    <footer class="footer-wrap">
+      <a href="">World.Net</a>
+      <ul class="list">
+        <li>
+          <a href="" class="link">
+            <svg class="footer-social-icon" width="40" height="40">
+              <use href="./img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="footer-social-icon" width="40" height="40">
+              <use href="./img/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" class="link">
+            <svg class="footer-social-icon" width="40" height="40">
+              <use href="./img/icons.svg#icon-whatsapp"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <address>
+        <a href="tel:88006549732" class="address-link link"
+          >8 (800) 654-97-32</a
+        >
+      </address>
+    </footer>
+    <!------------------------------------------- FOOTER -------------------------------------------->
   </body>
 </html>

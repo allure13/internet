@@ -39,3 +39,7 @@ button {
   color: currentColor;
   font-family: inherit;
 }
+
+.footer-wrap {
+  background-color: #5f0a61;
+}
